@@ -1,5 +1,5 @@
-name: 'google-sheets-secrets-action'
-description: 'Setup some pair of key value in env vars as masked env vars like github actions secrets'
+name: 'block-day-from-calendar-secrets-action'
+description: 'Setup cohorts current content (block.day) in env vars'
 inputs:
   auth-client-email:
     description: 'google service account client email'
@@ -10,9 +10,6 @@ inputs:
   spreadsheet:
       description: 'spreadsheet document id'
       required: true
-  sheet:
-    description: 'in case of multiple sheets specify one'
-    required: false        
 runs:
   using: 'node12'
   main: 'dist/index.js'

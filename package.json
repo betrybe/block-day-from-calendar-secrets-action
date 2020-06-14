@@ -1,7 +1,7 @@
 {
-  "name": "google-sheets-secrets-action",
+  "name": "block-day-from-calendar-secrets-action",
   "version": "1.0.0",
-  "description": "google-sheets-secrets-action",
+  "description": "block-day-from-calendar-secrets-action",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dibenlloch/google-sheets-secrets-action.git"
+    "url": "git+https://github.com/betrybe/block-day-from-calendar-secrets-action.git"
   },
   "keywords": [
     "GitHub",
@@ -18,12 +18,12 @@
     "spreadsheets",
     "secrets"
   ],
-  "author": "dibenlloch",
+  "author": "trybe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dibenlloch/google-sheets-secrets-action/issues"
+    "url": "https://github.com/betrybe/block-day-from-calendar-secrets-action/issues"
   },
-  "homepage": "https://github.com/dibenlloch/google-sheets-secrets-action#readme",
+  "homepage": "https://github.com/betrybe/block-day-from-calendar-secrets-action",
   "dependencies": {
     "@actions/core": "^1.2.3",
     "googleapis": "^49.0.0",
