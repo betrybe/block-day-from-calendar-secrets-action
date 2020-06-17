@@ -13,8 +13,8 @@ async function exportCurrentCohortBlock(googleAuth, sheetId, cohortTabRange, blo
   }).then(response => {
     const rows = response.data.values;
 
-    const today = new Date().toISOString().replace(/T/, "-").split("-");
-    const formattedDate = `${today[2]}/${today[1]}/${today[0]}`;
+    const today = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" }).split(",")[0].split("/");
+    const formattedDate = `${today[1]}/${today[0]}/${today[2]}`;
 
     const matchedDateIndex = rows[0].findIndex((e) => e === formattedDate)
 
